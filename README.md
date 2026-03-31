@@ -22,7 +22,9 @@
 ## Architecture & Functionality 
 This project follows a classic Client-Server Architecture:
 ​**The Client (Frontend)**: The user interacts with the HTML/CSS/JS interface in their browser. When they book a trip or request an itinerary, the frontend sends an HTTP POST request to the backend.
+
 ​**The Server (Backend)**: The Express server receives the request.
+
 ​*For Bookings*: It reads the data and appends it to a local bookings.json file.
 *​For AI*: It securely reads the hidden API key from the .env file, forwards the user's prompt to Google's Gemini servers, formats the response, and sends it back to the client.
 
