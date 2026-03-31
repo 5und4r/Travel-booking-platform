@@ -4,9 +4,13 @@
 
 ## Key features 
 **Aesthetic UI/UX**: Clean, modern design utilizing CSS Grid, flexbox, smooth hover animations, and glassmorphism UI elements.
+
 **​Fully Responsive**: Fluid layout that adapts perfectly to desktop, tablet, and mobile screens.
+
 **​AI Itinerary Planner**: Integrated with Google's Gemini AI. Users can input their stay duration, and the app generates a custom, day-by-day travel plan for their selected destination.
+
 **​Booking System**: Functional frontend form that securely transmits user booking data to the backend.
+
 ​**Secure Backend**: A Node.js server that acts as a secure middleman, hiding sensitive API keys from the client browser and handling data storage.
 
 ## Tech Stack
